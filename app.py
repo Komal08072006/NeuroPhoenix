@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 from dotenv import load_dotenv
 
 
-# Generate a random key if not found in .env
+# Generate a random key if not found in .env file 
 secret_key = os.getenv("FLASK_SECRET_KEY")
 if not secret_key:
     secret_key = secrets.token_hex(32)  # generates a secure random key

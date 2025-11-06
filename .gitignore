@@ -9,7 +9,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Editor / System files
+# Editor / System files hello 
 .vscode/
 .DS_Store
 Thumbs.db
